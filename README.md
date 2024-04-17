@@ -93,7 +93,7 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 - [X] create app logo on canva
 - [X] create launch screen on canva
 
-### Progress
+#### Progress
 <div>
     <a href="https://www.loom.com/share/fc4e38f5987f4056ad64dc1a7fecaf6a">
     </a>
@@ -111,7 +111,7 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 - [ ] meal/recipe logging
      - [ ] Integrate functionality for users to manually input food items and log meals.
      - [ ] Implement basic local data persistence for meal logs.
-- [ ]recipe search and discovery
+- [ ] recipe search and discovery
      - [ ] Integrate an API or database for accessing recipes.
      - [ ] Implement search functionality based on ingredients, cuisine type, etc.
 - [ ] link all navagation
