@@ -81,7 +81,7 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 ## Sprint Planning and Development
 
-**Main Features**
+### Main Features
 - [X] Logo and Launch Screen
 - [ ] Create Account/Login
 - [ ] User Profile Setup
@@ -90,7 +90,7 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 - [ ] Barcode Scanning Integration (Optional)
 
 
-**Sprint 1:**
+### Sprint 1:
 - [X] create app logo on canva
 - [X] create launch screen on canva
 
@@ -106,7 +106,7 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 #### Reflection
 It was pretty simple, I had no problems creating the app logo and launchscreen on canva 
 
-**Sprint 2:**
+### Sprint 2:
 - [ ] registration and login
      - [ ] integrate basic authentication functionality.
      - [ ] design screen
@@ -121,7 +121,7 @@ It was pretty simple, I had no problems creating the app logo and launchscreen o
 - [ ] link all navagation
 
 
-**Sprint 4: (Optional)** 
+### Sprint 4: (Optional) 
 
 - [ ] Integrate barcode scanning functionality into the app.
 - [ ] Implement UI elements for barcode scanning.
