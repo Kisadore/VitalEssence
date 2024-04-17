@@ -16,7 +16,6 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
 - **Category:**
      - Health & Fitness
 - **Mobile:**
