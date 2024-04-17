@@ -67,12 +67,12 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Login/Registration
+Login/Registration
     * => Recipe Search and Discovery
     * => Create Account
-- [ ] Profile
+Profile
     * => Settings
-- [ ] Recipe Logging
+Recipe Logging
     * => Barcode Scanner(maybe)
 
 ## Wireframes
@@ -104,7 +104,7 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
   </div>
 
 #### Reflection
-It was pretty simple, I had no problems creating the app logo and launchscreen on canva 
+It was pretty simple, I had no problems creating the app logo and launchscreen on canva. Next I will be working on sprint 2 and sprint 3.
 
 ### Sprint 2:
 - [ ] registration and login
@@ -121,7 +121,7 @@ It was pretty simple, I had no problems creating the app logo and launchscreen o
 - [ ] link all navagation
 
 
-### Sprint 4: (Optional) 
+### Sprint 3: (Optional) 
 
 - [ ] Integrate barcode scanning functionality into the app.
 - [ ] Implement UI elements for barcode scanning.
