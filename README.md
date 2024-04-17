@@ -67,12 +67,12 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 **Flow Navigation** (Screen to Screen)
 
-Login/Registration
+- Login/Registration
     * => Recipe Search and Discovery
     * => Create Account
-Profile
+- Profile
     * => Settings
-Recipe Logging
+- Recipe Logging
     * => Barcode Scanner(maybe)
 
 ## Wireframes
