@@ -6,6 +6,7 @@
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
+5. [Sprint Planning](#Sprint-Planning)
 
 ## Overview
 
@@ -15,7 +16,6 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
 - **Category:**
      - Health & Fitness
 - **Mobile:**
@@ -45,18 +45,16 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 ### 2. Screen Archetypes
 
-- [X] App Logo
-- [X] Launch Screen
-- [ ] Login/Registration Screen
+-  Login/Registration Screen
     - User can log in (Required)
     - User can create a new account (Required)
-- [ ] Profile Creation/Settings Screen
+-  Profile Creation/Settings Screen
     - User can input personal details such as age, weight, height, and dietary preferences (Required)
-- [ ] Recipe Logging Screen
+-  Recipe Logging Screen
     - User can log their recipes by manually entering food items or selecting from a database of common foods (Required)
-- [ ] Recipe Search and Discovery Screen/Home
+-  Recipe Search and Discovery Screen/Home
     - User can search for recipes based on ingredients, cuisine type, dietary restrictions, etc. (Required)
-- [ ] Barcode Scanning Screen (Optional)
+-  Barcode Scanning Screen (Optional)
     - User can scan barcodes of packaged food items to input nutritional information into their meal logs (Optional)
 
 ### 3. Navigation
@@ -78,14 +76,24 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
     * => Barcode Scanner(maybe)
 
 ## Wireframes
+![IMG_6576](https://github.com/Kisadore/VitalEssence/assets/118093694/da32c01b-2274-4c84-b670-82564b89af6a)
 
-![IMG_6576](https://github.com/Kisadore/VitalEssence/assets/118093694/c521031d-aad5-4e03-b49e-36b220930c80)
+
+## Sprint Planning and Development
+
+**Main Features**
+* Create Account/Login
+* User Profile Setup
+* Meal Logging/adding new recipies Functionality
+* Recipe Search and Discovery
+* Barcode Scanning Integration (Optional)
 
 
-### [BONUS] Digital Wireframes & Mockups
+**Sprint 1:**
+- [X] create app logo on canva
+- [X] create launch screen on canva
 
-### [BONUS] Interactive Prototype
-## Progress
+#### Progress
 <div>
     <a href="https://www.loom.com/share/fc4e38f5987f4056ad64dc1a7fecaf6a">
     </a>
@@ -93,6 +101,27 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fc4e38f5987f4056ad64dc1a7fecaf6a-with-play.gif">
     </a>
   </div>
+
+**Sprint 2:**
+- [ ] registration and login
+     - [ ] integrate basic authentication functionality.
+     - [ ] design screen
+- [ ] profile
+     - [ ] Create user profile setup screens for inputting personal details.
+- [ ] meal/recipe logging
+     - [ ] Integrate functionality for users to manually input food items and log meals.
+     - [ ] Implement basic local data persistence for meal logs.
+- [ ] recipe search and discovery
+     - [ ] Integrate an API or database for accessing recipes.
+     - [ ] Implement search functionality based on ingredients, cuisine type, etc.
+- [ ] link all navagation
+
+
+**Sprint 4: (Optional)** 
+
+- [ ] Integrate barcode scanning functionality into the app.
+- [ ] Implement UI elements for barcode scanning.
+- [ ] Integrate barcode scanning with meal logging to input nutritional information.
 
 
 ## Schema 
