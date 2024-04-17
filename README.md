@@ -82,11 +82,12 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 ## Sprint Planning and Development
 
 **Main Features**
-* Create Account/Login
-* User Profile Setup
-* Meal Logging/adding new recipies Functionality
-* Recipe Search and Discovery
-* Barcode Scanning Integration (Optional)
+- [X] Logo and Launch Screen
+- [ ] Create Account/Login
+- [ ] User Profile Setup
+- [ ] Meal Logging/adding new recipies Functionality
+- [ ] Recipe Search and Discovery
+- [ ] Barcode Scanning Integration (Optional)
 
 
 **Sprint 1:**
@@ -101,6 +102,9 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/fc4e38f5987f4056ad64dc1a7fecaf6a-with-play.gif">
     </a>
   </div>
+
+#### Reflection
+It was pretty simple, I had no problems creating the app logo and launchscreen on canva 
 
 **Sprint 2:**
 - [ ] registration and login
