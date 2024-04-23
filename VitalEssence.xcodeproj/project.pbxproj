@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		5AF395D52BCF4EF7007D4526 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5AF395D42BCF4EF7007D4526 /* Base */; };
 		5AF395D72BCF4EF9007D4526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF395D62BCF4EF9007D4526 /* Assets.xcassets */; };
 		5AF395DA2BCF4EF9007D4526 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5AF395D92BCF4EF9007D4526 /* Base */; };
+		5AF395E22BD6FA65007D4526 /* SearchDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395E12BD6FA65007D4526 /* SearchDiscoveryViewController.swift */; };
+		5AF395E82BD761C8007D4526 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 5AF395E72BD761C8007D4526 /* Nuke */; };
+		5AF395EA2BD762E6007D4526 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395E92BD762E6007D4526 /* Recipe.swift */; };
+		5AF395EC2BD768CB007D4526 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395EB2BD768CB007D4526 /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,9 @@
 		5AF395D62BCF4EF9007D4526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF395D92BCF4EF9007D4526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF395DB2BCF4EF9007D4526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF395E12BD6FA65007D4526 /* SearchDiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDiscoveryViewController.swift; sourceTree = "<group>"; };
+		5AF395E92BD762E6007D4526 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		5AF395EB2BD768CB007D4526 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF395E82BD761C8007D4526 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,9 @@
 				5AF395CD2BCF4EF7007D4526 /* AppDelegate.swift */,
 				5AF395CF2BCF4EF7007D4526 /* SceneDelegate.swift */,
 				5AF395D12BCF4EF7007D4526 /* ViewController.swift */,
+				5AF395E92BD762E6007D4526 /* Recipe.swift */,
+				5AF395EB2BD768CB007D4526 /* RecipeCell.swift */,
+				5AF395E12BD6FA65007D4526 /* SearchDiscoveryViewController.swift */,
 				5AF395D32BCF4EF7007D4526 /* Main.storyboard */,
 				5AF395D62BCF4EF9007D4526 /* Assets.xcassets */,
 				5AF395D82BCF4EF9007D4526 /* LaunchScreen.storyboard */,
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = VitalEssence;
+			packageProductDependencies = (
+				5AF395E72BD761C8007D4526 /* Nuke */,
+			);
 			productName = VitalEssence;
 			productReference = 5AF395CA2BCF4EF7007D4526 /* VitalEssence.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 5AF395C12BCF4EF7007D4526;
+			packageReferences = (
+				5AF395E62BD761C7007D4526 /* XCLocalSwiftPackageReference "../Nuke" */,
+			);
 			productRefGroup = 5AF395CB2BCF4EF7007D4526 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +158,9 @@
 				5AF395D22BCF4EF7007D4526 /* ViewController.swift in Sources */,
 				5AF395CE2BCF4EF7007D4526 /* AppDelegate.swift in Sources */,
 				5AF395D02BCF4EF7007D4526 /* SceneDelegate.swift in Sources */,
+				5AF395EC2BD768CB007D4526 /* RecipeCell.swift in Sources */,
+				5AF395EA2BD762E6007D4526 /* Recipe.swift in Sources */,
+				5AF395E22BD6FA65007D4526 /* SearchDiscoveryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +383,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5AF395E62BD761C7007D4526 /* XCLocalSwiftPackageReference "../Nuke" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Nuke;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AF395E72BD761C8007D4526 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5AF395C22BCF4EF7007D4526 /* Project object */;
 }
