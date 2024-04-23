@@ -83,12 +83,38 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 ### Main Features
 - [X] Logo and Launch Screen
-- [ ] Create Account/Login
-- [ ] User Profile Setup
+- [X] Login Screen
+- [ ] User Profile Setup (Optional)
 - [ ] Meal Logging/adding new recipies Functionality
-- [ ] Recipe Search and Discovery
+- [X] Recipe Search and Discovery
+- [ ] Recipe Details Screen
 - [ ] Barcode Scanning Integration (Optional)
 
+### Sprint 2:
+- [ ] login
+     - [ ] integrate basic authentication functionality.
+     - [X] design screen
+- [ ] profile
+     - [ ] Create user profile setup screens for inputting personal details.
+- [ ] meal/recipe logging
+     - [ ] Integrate functionality for users to manually input food items and log meals.
+     - [ ] Implement basic local data persistence for meal logs.
+- [X] recipe search and discovery
+     - [X] Integrate an API or database for accessing recipes.
+     - [X] Implement search functionality based on ingredients, cuisine type, etc.
+- [X] link navagation
+
+#### Progress
+<div>
+    <a href="https://www.loom.com/share/50c3854089f34be99b2e79e3587a2f78">
+    </a>
+    <a href="https://www.loom.com/share/50c3854089f34be99b2e79e3587a2f78">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/50c3854089f34be99b2e79e3587a2f78-with-play.gif">
+    </a>
+  </div>
+
+#### Reflection
+I had the most trouble figuring out how to use the text from the search bar. Next I will be work on the recipe details screen and update my login screen where it actually checks for a username and password.
 
 ### Sprint 1:
 - [X] create app logo on canva
@@ -105,20 +131,6 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 
 #### Reflection
 It was pretty simple, I had no problems creating the app logo and launchscreen on canva. Next I will be working on sprint 2 and sprint 3.
-
-### Sprint 2:
-- [ ] registration and login
-     - [ ] integrate basic authentication functionality.
-     - [ ] design screen
-- [ ] profile
-     - [ ] Create user profile setup screens for inputting personal details.
-- [ ] meal/recipe logging
-     - [ ] Integrate functionality for users to manually input food items and log meals.
-     - [ ] Implement basic local data persistence for meal logs.
-- [ ] recipe search and discovery
-     - [ ] Integrate an API or database for accessing recipes.
-     - [ ] Implement search functionality based on ingredients, cuisine type, etc.
-- [ ] link all navagation
 
 
 ### Sprint 3: (Optional) 
