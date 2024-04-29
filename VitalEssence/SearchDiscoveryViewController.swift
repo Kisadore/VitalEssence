@@ -14,6 +14,7 @@ class SearchDiscoveryViewController: UIViewController, UITableViewDataSource, UI
         return recipies.count
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         print("🍏 cellForRowAt called for row: \(indexPath.row)")
@@ -36,6 +37,7 @@ class SearchDiscoveryViewController: UIViewController, UITableViewDataSource, UI
         
         return cell
     }
+    
     
     private var recipies: [Recipe] = []
     

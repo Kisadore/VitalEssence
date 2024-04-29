@@ -17,6 +17,8 @@
 		5AF395E82BD761C8007D4526 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 5AF395E72BD761C8007D4526 /* Nuke */; };
 		5AF395EA2BD762E6007D4526 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395E92BD762E6007D4526 /* Recipe.swift */; };
 		5AF395EC2BD768CB007D4526 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395EB2BD768CB007D4526 /* RecipeCell.swift */; };
+		5AF395EE2BD796AA007D4526 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395ED2BD796AA007D4526 /* DetailViewController.swift */; };
+		5AF395F02BD79715007D4526 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395EF2BD79715007D4526 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		5AF395E12BD6FA65007D4526 /* SearchDiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDiscoveryViewController.swift; sourceTree = "<group>"; };
 		5AF395E92BD762E6007D4526 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		5AF395EB2BD768CB007D4526 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		5AF395ED2BD796AA007D4526 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5AF395EF2BD79715007D4526 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				5AF395D62BCF4EF9007D4526 /* Assets.xcassets */,
 				5AF395D82BCF4EF9007D4526 /* LaunchScreen.storyboard */,
 				5AF395DB2BCF4EF9007D4526 /* Info.plist */,
+				5AF395ED2BD796AA007D4526 /* DetailViewController.swift */,
+				5AF395EF2BD79715007D4526 /* CreateAccountViewController.swift */,
 			);
 			path = VitalEssence;
 			sourceTree = "<group>";
@@ -159,8 +165,10 @@
 				5AF395CE2BCF4EF7007D4526 /* AppDelegate.swift in Sources */,
 				5AF395D02BCF4EF7007D4526 /* SceneDelegate.swift in Sources */,
 				5AF395EC2BD768CB007D4526 /* RecipeCell.swift in Sources */,
+				5AF395F02BD79715007D4526 /* CreateAccountViewController.swift in Sources */,
 				5AF395EA2BD762E6007D4526 /* Recipe.swift in Sources */,
 				5AF395E22BD6FA65007D4526 /* SearchDiscoveryViewController.swift in Sources */,
+				5AF395EE2BD796AA007D4526 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

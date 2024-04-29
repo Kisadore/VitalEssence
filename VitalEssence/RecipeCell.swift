@@ -7,12 +7,16 @@
 
 import UIKit
 
+
 class RecipeCell: UITableViewCell {
     
     
     @IBOutlet weak var recipeImage: UIImageView!
     
     @IBOutlet weak var recipeLabel: UILabel!
+    
+    @IBAction func getRecipeButtonTapped(_ sender: UIButton) {
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
