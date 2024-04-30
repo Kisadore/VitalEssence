@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A6976922BE08DC2006228DC /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6976912BE08DC2006228DC /* RecipeDetails.swift */; };
 		5AF395CE2BCF4EF7007D4526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395CD2BCF4EF7007D4526 /* AppDelegate.swift */; };
 		5AF395D02BCF4EF7007D4526 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395CF2BCF4EF7007D4526 /* SceneDelegate.swift */; };
 		5AF395D22BCF4EF7007D4526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF395D12BCF4EF7007D4526 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A6976912BE08DC2006228DC /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		5AF395CA2BCF4EF7007D4526 /* VitalEssence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalEssence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF395CD2BCF4EF7007D4526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AF395CF2BCF4EF7007D4526 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				5AF395CF2BCF4EF7007D4526 /* SceneDelegate.swift */,
 				5AF395D12BCF4EF7007D4526 /* ViewController.swift */,
 				5AF395E92BD762E6007D4526 /* Recipe.swift */,
+				5A6976912BE08DC2006228DC /* RecipeDetails.swift */,
 				5AF395EB2BD768CB007D4526 /* RecipeCell.swift */,
 				5AF395E12BD6FA65007D4526 /* SearchDiscoveryViewController.swift */,
 				5AF395D32BCF4EF7007D4526 /* Main.storyboard */,
@@ -167,6 +170,7 @@
 				5AF395EC2BD768CB007D4526 /* RecipeCell.swift in Sources */,
 				5AF395F02BD79715007D4526 /* CreateAccountViewController.swift in Sources */,
 				5AF395EA2BD762E6007D4526 /* Recipe.swift in Sources */,
+				5A6976922BE08DC2006228DC /* RecipeDetails.swift in Sources */,
 				5AF395E22BD6FA65007D4526 /* SearchDiscoveryViewController.swift in Sources */,
 				5AF395EE2BD796AA007D4526 /* DetailViewController.swift in Sources */,
 			);

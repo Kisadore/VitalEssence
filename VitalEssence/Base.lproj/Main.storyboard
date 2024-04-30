@@ -165,7 +165,7 @@
                                         <connections>
                                             <outlet property="recipeImage" destination="uB7-OE-bFy" id="k5t-xv-1XU"/>
                                             <outlet property="recipeLabel" destination="7ZQ-5L-n96" id="MfI-m0-fJI"/>
-                                            <segue destination="eAq-JJ-hmK" kind="show" id="bdo-na-uCL"/>
+                                            <segue destination="eAq-JJ-hmK" kind="show" identifier="showDetail" id="bdo-na-uCL"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

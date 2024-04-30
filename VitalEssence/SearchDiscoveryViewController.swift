@@ -126,4 +126,67 @@ class SearchDiscoveryViewController: UIViewController, UITableViewDataSource, UI
         // run the session!
         session.resume()
     }
+    
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            let selectedRecipe = recipies[indexPath.row]
+            fetchRecipeDetails(withID: selectedRecipe.idMeal)
+        }
+        
+    private func fetchRecipeDetails(withID id: String) {
+        let urlString = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=\(id)"
+        guard let url = URL(string: urlString) else {
+            print("Invalid URL")
+            return
+        }
+        let session = URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
+            // Handle response
+            if let error = error {
+                print("🚨 Request failed: \(error.localizedDescription)")
+                return
+            }
+            
+            // Check for server errors
+            guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
+                print("🚨 Server Error: response: \(String(describing: response))")
+                return
+            }
+            
+            // Check for data
+            guard let data = data else {
+                print("🚨 No data returned from request")
+                return
+            }
+            
+            do {
+                print("API Response: \(String(data: data, encoding: .utf8) ?? "Unable to convert data to string")")
+                let mealResponse = try JSONDecoder().decode(MealResponse.self, from: data)
+                print("API Response: \(String(data: data, encoding: .utf8) ?? "Unable to convert data to string")")
+                if let meal = mealResponse.mealDetail.first {
+                    print("Fetched meal: \(meal)")
+                    DispatchQueue.main.async {
+                        self?.performSegue(withIdentifier: "showDetail", sender: meal)
+                    }
+                } else {
+                    print("No meal found in response")
+                }
+            } catch {
+                print("Error decoding JSON data into Meal Response: \(error.localizedDescription)")
+                return
+            }
+        }
+        session.resume()
+    }
+
+        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("Preparing for segue")
+            if segue.identifier == "showDetail" {
+                if let destinationVC = segue.destination as? DetailViewController,
+                   let selectedMeal = sender as? Meal {
+                    destinationVC.instructions = selectedMeal
+                }
+        }
+    }
 }
