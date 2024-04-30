@@ -84,18 +84,46 @@ Helps users plan meals, discover recipes, and track nutrition. Users can log mea
 ### Main Features
 - [X] Logo and Launch Screen
 - [X] Login Screen
-- [ ] User Profile Setup (Optional)
+- [X] Create Account
 - [ ] Meal Logging/adding new recipies Functionality
 - [X] Recipe Search and Discovery
-- [ ] Recipe Details Screen
+- [X] Recipe Details Screen
+     - [X] Created, but the second api call for this needs work
 - [ ] Barcode Scanning Integration (Optional)
+
+### Sprint 3:
+- [X] login
+     - [X] integrate basic functionality.
+     - [X] design screen
+- [X] Create Account
+     - [X] Create user account setup screen.
+- [ ] meal/recipe logging
+     - [ ] Integrate functionality for users to manually input food items and log meals.
+     - [ ] Implement basic local data persistence for meal logs.
+- [X] recipe search and discovery
+     - [X] Integrate an API or database for accessing recipes.
+     - [X] Implement search functionality based on ingredients, cuisine type, etc.
+- [X] link navagation
+
+#### Progress
+<div>
+    <a href="https://www.loom.com/share/31462cb4ef784cdea4b4d3aee3d82687">
+    </a>
+    <a href="https://www.loom.com/share/31462cb4ef784cdea4b4d3aee3d82687">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/31462cb4ef784cdea4b4d3aee3d82687-with-play.gif">
+    </a>
+  </div>
+
+#### Reflection
+I had the most trouble figuring out how to connect the second API call with the detail screen and I wish I had the time to do a lot more but I will continue to work on it overtime.
+
 
 ### Sprint 2:
 - [ ] login
-     - [ ] integrate basic authentication functionality.
+     - [ ] integrate basic functionality.
      - [X] design screen
-- [ ] profile
-     - [ ] Create user profile setup screens for inputting personal details.
+- [ ] Create Account
+     - [ ] Create user account setup screen.
 - [ ] meal/recipe logging
      - [ ] Integrate functionality for users to manually input food items and log meals.
      - [ ] Implement basic local data persistence for meal logs.
@@ -133,7 +161,7 @@ I had the most trouble figuring out how to use the text from the search bar. Nex
 It was pretty simple, I had no problems creating the app logo and launchscreen on canva. Next I will be working on sprint 2 and sprint 3.
 
 
-### Sprint 3: (Optional) 
+### Sprint 4: (Optional) 
 
 - [ ] Integrate barcode scanning functionality into the app.
 - [ ] Implement UI elements for barcode scanning.
